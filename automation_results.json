@@ -1,0 +1,22 @@
+[
+  {
+    "instance_id": 1,
+    "customer_name": "John",
+    "success": true,
+    "execution_time": 4.587461471557617,
+    "error_message": null,
+    "screenshot_path": null,
+    "start_time": 1750429168.5793037,
+    "end_time": 1750429173.1667652
+  },
+  {
+    "instance_id": 2,
+    "customer_name": "Sarah",
+    "success": true,
+    "execution_time": 4.570458650588989,
+    "error_message": null,
+    "screenshot_path": null,
+    "start_time": 1750429168.5803077,
+    "end_time": 1750429173.1507664
+  }
+]

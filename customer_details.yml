@@ -1,0 +1,166 @@
+# Customer Details for Automated Form Filling
+# Each customer has a unique index for easy referencing
+
+customers:
+  customer_1:
+    first_name: "John"
+    email: "john.smith@example.com"
+    gender: "Male"
+    mobile: "1234567890"
+    date_of_birth: "1990-07-09"
+    subjects: "English"
+    hobbies: ["Sport", "Reading"]
+    picture_path: "C:\\Users\\abdul\\Downloads\\ok.png"
+    current_address: "123 Main Street, New York, NY 10001"
+    state: "NCR"
+    city: "Agra"
+
+  customer_2:
+    first_name: "Sarah"
+    email: "sarah.johnson@example.com"
+    gender: "Female"
+    mobile: "2345678901"
+    date_of_birth: "1990-07-09"
+    subjects: "Mathematics"
+    hobbies: ["Music", "Reading"]
+    picture_path: "C:\\Users\\abdul\\Downloads\\ok.png"
+    current_address: "456 Oak Avenue, Los Angeles, CA 90210"
+    state: "NCR"
+    city: "Agra"
+
+  customer_3:
+    first_name: "Michael"
+    email: "michael.brown@example.com"
+    gender: "Male"
+    mobile: "3456789012"
+    date_of_birth: "1990-07-09"
+    subjects: "Science"
+    hobbies: ["Sport", "Music"]
+    picture_path: "C:\\Users\\abdul\\Downloads\\ok.png"
+    current_address: "789 Pine Road, Chicago, IL 60601"
+    state: "Uttar Pradesh"
+    city: "Lucknow"
+
+  customer_4:
+    first_name: "Emily"
+    email: "emily.davis@example.com"
+    gender: "Male"
+    mobile: "4567890123"
+    date_of_birth: "1990-07-09"
+    subjects: "History"
+    hobbies: ["Reading", "Music"]
+    picture_path: "C:\\Users\\abdul\\Downloads\\ok.png"
+    current_address: "321 Elm Street, Houston, TX 77001"
+    state: "Haryana"
+    city: "Meerut"
+
+  customer_5:
+    first_name: "David"
+    email: "david.wilson@example.com"
+    gender: "Male"
+    mobile: "5678901234"
+    date_of_birth: "1990-07-09"
+    subjects: "Computer Science"
+    hobbies: ["Sport", "Reading"]
+    picture_path: "C:\\Users\\abdul\\Downloads\\ok.png"
+    current_address: "654 Maple Drive, Phoenix, AZ 85001"
+    state: "Rajasthan"
+    city: "Agra"
+
+  customer_6:
+    first_name: "Jessica"
+    email: "jessica.miller@example.com"
+    gender: "Female"
+    mobile: "6789012345"
+    date_of_birth: "1990-07-09"
+    subjects: "Physics"
+    hobbies: ["Music", "Reading"]
+    picture_path: "C:\\Users\\abdul\\Downloads\\ok.png"
+    current_address: "987 Cedar Lane, Philadelphia, PA 19101"
+    state: "NCR"
+    city: "Agra"
+
+  customer_7:
+    first_name: "Robert"
+    email: "robert.taylor@example.com"
+    gender: "Male"
+    mobile: "7890123456"
+    date_of_birth: "1990-07-09"
+    subjects: "Chemistry"
+    hobbies: ["Sport", "Music"]
+    picture_path: "C:\\Users\\abdul\\Downloads\\ok.png"
+    current_address: "147 Birch Court, San Antonio, TX 78201"
+    state: "NCR"
+    city: "Agra"
+
+  customer_8:
+    first_name: "Amanda"
+    email: "amanda.anderson@example.com"
+    gender: "Female"
+    mobile: "8901234567"
+    date_of_birth: "1990-07-09"
+    subjects: "Biology"
+    hobbies: ["Reading", "Music"]
+    picture_path: "C:\\Users\\abdul\\Downloads\\ok.png"
+    current_address: "258 Spruce Way, San Diego, CA 92101"
+    state: "NCR"
+    city: "Agra"
+
+  customer_9:
+    first_name: "Christopher"
+    email: "christopher.thomas@example.com"
+    gender: "Male"
+    mobile: "9012345678"
+    date_of_birth: "1990-07-09"
+    subjects: "Economics"
+    hobbies: ["Sport", "Reading"]
+    picture_path: "C:\\Users\\abdul\\Downloads\\ok.png"
+    current_address: "369 Willow Street, Dallas, TX 75201"
+    state: "NCR"
+    city: "Agra"
+
+  customer_10:
+    first_name: "Nicole"
+    email: "nicole.jackson@example.com"
+    gender: "Male"
+    mobile: "0123456789"
+    date_of_birth: "1990-07-09"
+    subjects: "Psychology"
+    hobbies: ["Music", "Reading"]
+    picture_path: "C:\\Users\\abdul\\Downloads\\ok.png"
+    current_address: "741 Poplar Avenue, San Jose, CA 95101"
+    state: "NCR"
+    city: "Agra"
+
+# Configuration settings
+config:
+  default_picture_path: "C:\\Users\\abdul\\Downloads\\ok.png"
+  timeout: 60000
+  wait_time: 3000
+  screenshot_on_error: true
+  
+# Form field mappings
+field_mappings:
+  first_name: "#name"
+  email: "#email"
+  mobile: "#mobile"
+  date_of_birth: "#dob"
+  subjects: "#subjects"
+  current_address: "textarea#picture"
+  state: "#state"
+  city: "#city"
+  login_button: "input[value='Login']"
+  
+# Available options for dropdowns
+available_options:
+  states:
+    - "NCR"
+    - "Uttar Pradesh"
+    - "Haryana"
+    - "Rajasthan"
+  
+  cities:
+    NCR: ["Agra", "Delhi", "Gurgaon"]
+    "Uttar Pradesh": ["Lucknow", "Kanpur", "Varanasi"]
+    Haryana: ["Karnal", "Gurgaon", "Faridabad"]
+    Rajasthan: ["Jaipur", "Jodhpur", "Udaipur"]
